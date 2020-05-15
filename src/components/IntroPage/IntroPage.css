@@ -1,0 +1,72 @@
+.introPageMain {
+	background-color: #044dfb;
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(4, 70, 4);
+    border-radius: 2%;
+}
+
+.imageLeft {
+	width: 450px;
+	display: float;
+    float: left;
+    padding-top: 100px;
+}
+
+.fireMonster {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.titleArea {
+	padding-top: 160px;
+	display: inline-block;
+	margin: 0 auto;
+    width: 300px;
+}
+
+.border{
+    border: 2px solid black;
+    border-radius: 3.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(77, 180, 58);
+}
+
+.introToTitle {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.startButton {
+    background-color: rgba(238, 255, 0, 0.938);
+    border: 2px solid darkgreen;
+    width: 110px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.startButton:hover {
+    border: 4px solid darkgreen;
+}
+
+.imageRight {
+	width: 450px;
+	display: float;
+    float: right;
+    padding-top: 190px;
+}
+
+.mushroom {
+	width: 60%;
+	margin: 0 auto;
+}

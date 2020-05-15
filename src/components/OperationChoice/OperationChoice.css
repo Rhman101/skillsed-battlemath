@@ -1,0 +1,51 @@
+.operationChoiceMain {
+	background-color: rgb(36, 133, 36);
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+	text-align: center;
+	border: 5px solid rgb(4, 70, 4);
+	border-radius: 2%;
+}
+
+.block {
+	width: 500px;
+	display: inline-block;
+}
+.selectionBox {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid transparent;
+}
+
+.selectionBox:hover {
+    border: 4px solid transparent;
+    border-radius: 5%;
+    background-color: lightblue;
+}
+
+.selectionBox p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.backgroundImage {
+	width: 60%;
+}
+
+/* .additionBlock {
+	background-color: green;
+}
+
+.subtractionBlock {
+	background-color: lightpink;
+}
+
+.multiplicationBlock {
+	background-color: lightsalmon;
+}
+
+.divisionBlock {
+	background-color: lightskyblue;
+} */

@@ -1,0 +1,112 @@
+.MathUXGridContainer {
+    /* background-color: lightskyblue; */
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .headerArea {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    width: 200px;
+  }
+
+  .headerArea h2 {
+    padding-top: 20px;
+    position: block;
+    text-align: center;
+  }
+  
+  .playerPicArea {
+    display: float;
+    width: 25%;
+    /* background-color: lightcoral; */
+    float: left;
+    height: 320px;
+  }
+  
+  .charImg {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  .monsterPicArea {
+    display: float;
+    width: 25%;
+    height: 320px;
+    /* background-color: lightgray; */
+    float: right;
+  }
+  
+  .monsterImg {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    margin-top: 0;
+  }
+  
+  .mathQuestionArea {
+    display: inline-block;
+    /* background-color: lightyellow; */
+    width: 45%;
+    height: 320px;
+  }
+
+  .answerInput {
+    height: 40px;
+    font-size: 35px;
+    width: 80px;
+    border: 0px solid darkslateblue;
+    border-radius: 5%;
+    /* opacity: 80%; */
+    text-align: center;
+  }
+
+  #backButton {
+    background-color: lightgreen;
+    border: 1px solid darkcyan;
+    border-radius: 5%;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    float: left;
+    position: block;
+  }
+  
+  #backButton:hover {
+    border: 2px solid darkcyan;
+  }
+
+  .submitButton {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .questionText {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  
+  .playerHealthArea {
+    display: inline-block;
+    float: left;
+    /* background-color: rgb(117, 221, 117); */
+    margin-left: 40px;
+  }
+  
+  .criticalHitArea {
+    display: inline-block;
+    /* background-color:  rgb(117, 221, 117); */
+  }
+  
+  .monsterHealthArea {
+    display: inline-block;
+    float: right;
+    /* background-color: green; */
+    margin-right: 40px;
+  }

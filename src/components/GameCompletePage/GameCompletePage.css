@@ -1,0 +1,17 @@
+.gameCompleteMain {
+	background-color: rgb(36, 133, 36);
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(4, 70, 4);
+    border-radius: 2%;
+}
+
+.gameCompleteHeading {
+    margin-top: 100px;
+}
+
+.gameCompleteText {
+    font-size: 30px;
+}
