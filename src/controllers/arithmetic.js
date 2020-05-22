@@ -1,6 +1,8 @@
 const additionFunction = () => {
-	let x = Math.floor(Math.random() * 10) + 2;
-	let y = Math.floor(Math.random() * 10) + 2;
+	const firstNumberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 13, 14, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 16, 17, 17, 17, 17, 18, 18, 18, 18, 19, 19, 19, 19];
+	const SecondNumberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12];
+	let x = firstNumberArray[Math.floor(Math.random() * firstNumberArray.length)];
+	let y = SecondNumberArray[Math.floor(Math.random() * SecondNumberArray.length)];
 	return {
 		valueOne: x,
 		valueTwo: y,
@@ -10,8 +12,10 @@ const additionFunction = () => {
 };
 
 const subtractionFunction = () => {
-	let x = Math.floor(Math.random() * 11) + 8;
-	let y = Math.floor(Math.random() * 11) + 1;
+	const firstNumberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 13, 14, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 16, 17, 17, 17, 17, 18, 18, 18, 18, 19, 19, 19, 19];
+	const SecondNumberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12];
+	let x = firstNumberArray[Math.floor(Math.random() * firstNumberArray.length)];
+	let y = SecondNumberArray[Math.floor(Math.random() * SecondNumberArray.length)];
 	return {
 		valueOne: x + y,
 		valueTwo: y,
@@ -21,8 +25,9 @@ const subtractionFunction = () => {
 };
 
 const multiplicationFunction = () => {
-	let x = Math.floor(Math.random() * 11) + 1;
-	let y = Math.floor(Math.random() * 11) + 1;
+	const numberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12];
+	let x = numberArray[Math.floor(Math.random() * numberArray.length)];
+	let y = numberArray[Math.floor(Math.random() * numberArray.length)];
 	return {
 		valueOne: x,
 		valueTwo: y,
@@ -32,13 +37,14 @@ const multiplicationFunction = () => {
 };
 
 const divisionFunction = () => {
-    let x = Math.floor(Math.random() * 11) + 1;
-    let y = Math.floor(Math.random() * 11) + 1;
+    const numberArray = [2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 12, 12];
+	let x = numberArray[Math.floor(Math.random() * numberArray.length)];
+	let y = numberArray[Math.floor(Math.random() * numberArray.length)];
     return {
         valueOne: x,
         valueTwo: y,
         answer: x,
-        questionText: `${x * y} / ${y} = `
+        questionText: `${x * y} ÷ ${y} = `
     }
 }
 

@@ -7,9 +7,9 @@ const difficultyFunction = (operation, level) => {
             [80, 8, 16]
         ],
         subtraction: [
-            [40, 11, 20],
-            [60, 10, 20],
-            [80, 9, 16]
+            [40, 12, 20],
+            [60, 11, 20],
+            [80, 10, 16]
         ],
         multiplication: [
             [60, 10, 30],
@@ -17,9 +17,9 @@ const difficultyFunction = (operation, level) => {
             [100, 8, 20]
         ],
         division: [
-            [40, 12, 20],
-            [50, 11, 20],
-            [60, 10, 12]
+            [40, 14, 20],
+            [50, 13, 20],
+            [60, 12, 12]
         ]
     };
     return {
