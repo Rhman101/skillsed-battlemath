@@ -10,12 +10,7 @@ const imageSelect = (type, operation, level) => {
 	} else if (type === 'monster') {
 		return `m${operationSelect[operation]}${level}.png`;
 	} else if (type === 'background') {
-		if (operation === 'division') {
-            console.log('this one')
-			return 'bg4.png';
-		} else {
-			return `bg${operationSelect[operation]}.jpg`;
-		}
+		return `bg${operationSelect[operation]}.jpg`
 	} else {
 		console.log('IMAGE ERROR!');
 		return undefined;

@@ -136,6 +136,7 @@ class MathUX extends React.Component {
 				</div>
 				<div className="monsterPicArea">
 					<img
+						// style={{width: '300px'}}
 						alt="monster"
 						className="monsterImg"
 						src={images[imageSelect('monster', this.props.operation, this.props.level)]}
