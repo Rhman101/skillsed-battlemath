@@ -96,13 +96,13 @@
   .playerHealthArea {
     display: inline-block;
     float: left;
-    /* background-color: rgb(117, 221, 117); */
+    background-color: rgba(255, 255, 255, 0.397);
     margin-left: 40px;
   }
   
   .criticalHitArea {
     display: inline-block;
-    /* background-color:  rgb(117, 221, 117); */
+    background-color: rgba(255, 255, 255, 0.397);
   }
   
   .monsterHealthArea {
