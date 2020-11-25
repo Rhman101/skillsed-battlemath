@@ -23,11 +23,11 @@ const difficultyFunction = (operation, level) => {
         ]
     };
     return {
-        questions: data[operation][level - 1][0],
-        // questions: 3, // For testing
+        // questions: data[operation][level - 1][0],
+        questions: 2, // For testing
         seconds: data[operation][level - 1][1],
-        percentageToFail: data[operation][level - 1][2],
-        // percentageToFail: 3 // for testing
+        // percentageToFail: data[operation][level - 1][2],
+        percentageToFail: 2 // for testing
     }
 }
 

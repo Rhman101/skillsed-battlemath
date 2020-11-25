@@ -52,9 +52,10 @@
   
   .mathQuestionArea {
     display: inline-block;
-    /* background-color: lightyellow; */
-    width: 45%;
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 35%;
     height: 320px;
+    font-size: large;
   }
 
   .answerInput {
@@ -63,7 +64,7 @@
     width: 80px;
     border: 0px solid darkslateblue;
     border-radius: 5%;
-    /* opacity: 80%; */
+    opacity: 80%;
     text-align: center;
   }
 

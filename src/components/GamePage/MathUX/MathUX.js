@@ -5,6 +5,7 @@ import levelHeading from '../../../controllers/levelHeading';
 import Bar from './Bar/Bar';
 import SecondsMeter from './SecondsMeter/SecondsMeter';
 import imageSelect from '../../../controllers/imageSelect';
+import imageSizeCSS from '../../../controllers/imageSizing';
 import './MathUX.css';
 
 function importAll(r) {
@@ -112,6 +113,9 @@ class MathUX extends React.Component {
 			intervalID,
 		}));
 	};
+	componentWillUnmount() {
+		clearInterval(this.state.intervalID);
+	}
 	render() {
 		return (
 			<div
@@ -136,7 +140,7 @@ class MathUX extends React.Component {
 				</div>
 				<div className="monsterPicArea">
 					<img
-						// style={{width: '300px'}}
+						style={imageSizeCSS('monster', this.props.operation, this.props.level)}
 						alt="monster"
 						className="monsterImg"
 						src={images[imageSelect('monster', this.props.operation, this.props.level)]}
