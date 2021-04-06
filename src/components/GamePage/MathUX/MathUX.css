@@ -52,7 +52,7 @@
   
   .mathQuestionArea {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.397);
+    /* background-color: rgba(255, 255, 255, 0.397); */
     width: 35%;
     height: 320px;
     font-size: large;
